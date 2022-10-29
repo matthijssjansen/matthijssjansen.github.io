@@ -1,83 +1,50 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
+@inproceedings{DBLP:conf/wosp/HegemanJIT21,
+  abbr        = {HotCloudPerf},
+  bibtex_show = {true},
+  selected    = {false},
+  preview     = {grademl.png},
+  pdf         = {https://atlarge-research.com/pdfs/hotcloudperf2021_GradeML.pdf},
+  abstract    = {Today, machine learning (ML) workloads are nearly ubiquitous. Over the past decade, much effort has been put into making ML model-training fast and efficient, e.g., by proposing new ML frameworks (such as TensorFlow, PyTorch), leveraging hardware support (TPUs, GPUs, FPGAs), and implementing new execution models (pipelines, distributed training). Matching this trend, considerable effort has also been put into performance analysis tools focusing on ML model-training. However, as we identify in this work, ML model training rarely happens in isolation and is instead one step in a larger ML workflow. Therefore, it is surprising that there exists no performance analysis tool that covers the entire life-cycle of ML workflows. Addressing this large conceptual gap, we envision in this work a holistic performance analysis tool for ML workflows. We analyze the state-of-practice and the state-of-the-art, presenting quantitative evidence about the performance of existing performance tools. We formulate our vision for holistic performance analysis of ML workflows along four design pillars: a unified execution model, lightweight collection of performance data, efficient data aggregation and presentation, and close integration in ML systems. Finally, we propose first steps towards implementing our vision as GradeML, a holistic performance analysis tool for ML workflows. Our preliminary work and experiments are open source at https://github.com/atlarge-research/grademl},
+  author      = {Tim Hegeman and
+                 Matthijs Jansen and
+                 Alexandru Iosup and
+                 Animesh Trivedi},
+  title       = {GradeML: Towards Holistic Performance Analysis for Machine Learning Workflows},
+  booktitle   = {HotCloudPerf},
+  year        = {2021},
+  editor      = {Johann Bourcier and
+                 Zhen Ming (Jack) Jiang and
+                 Cor{-}Paul Bezemer and
+                 Vittorio Cortellessa and
+                 Daniele Di Pompeo and
+                 Ana Lucia Varbanescu},
+  pages       = {57--63},
+  publisher   = {{ACM}},
+  doi         = {10.1145/3447545.3451185},
+  biburl      = {https://dblp.org/rec/conf/wosp/HegemanJIT21.bib},
+  bibsource   = {dblp computer science bibliography, https://dblp.org}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@inproceedings{DBLP:conf/sc/JansenCV20,
+  abbr        = {DLS@SC},
+  bibtex_show = {true},
+  selected    = {true},
+  preview     = {ddlbench.png},
+  pdf         = {https://atlarge-research.com/pdfs/jansen2020ddlbench.pdf},
+  abstract    = {Due to its many applications across various fields of research, engineering, and daily life, deep learning has seen a surge in popularity. Therefore, larger and more expressive models have been proposed, with examples like Turing-NLG using as many as 17 billion parameters. Training these very large models becomes increasingly difficult due to the high computational costs and large memory footprint. Therefore, several approaches for distributed training based on data parallelism (e.g., Horovod) and model/pipeline parallelism (e.g., GPipe, PipeDream) have emerged. In this work, we focus on an in-depth comparison of three different parallelism models that address these needs: data, model and pipeline parallelism. To this end, we provide an analytical comparison of the three, both in terms of computation time and memory usage, and introduce DDLBench, a comprehensive (open-source, ready-to-use) benchmark suite to quantify these differences in practice. Through in-depth performance analysis and experimentation with various models, datasets, distribution models and hardware systems, we demonstrate that DDLBench can accurately quantify the capability of a given system to perform distributed deep learning (DDL). By comparing our analytical models with the benchmarking results, we show how the performance of real-life implementations diverges from these analytical models, thus requiring benchmarking to capture the in-depth complexity of the frameworks themselves.},
+  author      = {Matthijs Jansen and
+                 Valeriu Codreanu and
+                 Ana Lucia Varbanescu},
+  title       = {DDLBench: Towards a Scalable Benchmarking Infrastructure for Distributed Deep Learning},
+  booktitle   = {Deep Learning on Supercomputers},
+  pages       = {31--39},
+  publisher   = {{IEEE}},
+  year        = {2020},
+  url         = {https://doi.org/10.1109/DLS51937.2020.00009},
+  doi         = {10.1109/DLS51937.2020.00009},
+  biburl      = {https://dblp.org/rec/conf/sc/JansenCV20.bib},
+  bibsource   = {dblp computer science bibliography, https://dblp.org}
 }
