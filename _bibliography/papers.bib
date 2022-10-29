@@ -74,11 +74,23 @@
   year={1905}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@inproceedings{DBLP:conf/sc/JansenCV20,
+  abbr        = {DLS@SC},
+  bibtex_show = {true},
+  selected    = {true},
+  preview     = {ddlbench.png},
+  pdf         = {https://atlarge-research.com/pdfs/jansen2020ddlbench.pdf},
+  abstract    = {Due to its many applications across various fields of research, engineering, and daily life, deep learning has seen a surge in popularity. Therefore, larger and more expressive models have been proposed, with examples like Turing-NLG using as many as 17 billion parameters. Training these very large models becomes increasingly difficult due to the high computational costs and large memory footprint. Therefore, several approaches for distributed training based on data parallelism (e.g., Horovod) and model/pipeline parallelism (e.g., GPipe, PipeDream) have emerged. In this work, we focus on an in-depth comparison of three different parallelism models that address these needs: data, model and pipeline parallelism. To this end, we provide an analytical comparison of the three, both in terms of computation time and memory usage, and introduce DDLBench, a comprehensive (open-source, ready-to-use) benchmark suite to quantify these differences in practice. Through in-depth performance analysis and experimentation with various models, datasets, distribution models and hardware systems, we demonstrate that DDLBench can accurately quantify the capability of a given system to perform distributed deep learning (DDL). By comparing our analytical models with the benchmarking results, we show how the performance of real-life implementations diverges from these analytical models, thus requiring benchmarking to capture the in-depth complexity of the frameworks themselves.},
+  author      = {Matthijs Jansen and
+                 Valeriu Codreanu and
+                 Ana Lucia Varbanescu},
+  title       = {DDLBench: Towards a Scalable Benchmarking Infrastructure for Distributed Deep Learning},
+  booktitle   = {Deep Learning on Supercomputers},
+  pages       = {31--39},
+  publisher   = {{IEEE}},
+  year        = {2020},
+  url         = {https://doi.org/10.1109/DLS51937.2020.00009},
+  doi         = {10.1109/DLS51937.2020.00009},
+  biburl      = {https://dblp.org/rec/conf/sc/JansenCV20.bib},
+  bibsource   = {dblp computer science bibliography, https://dblp.org}
 }
