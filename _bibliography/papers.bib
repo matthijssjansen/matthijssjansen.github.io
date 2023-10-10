@@ -235,3 +235,131 @@
   biburl      = {https://dblp.org/rec/conf/ccgrid/JansenAPTI23.bib},
   bibsource   = {dblp computer science bibliography, https://dblp.org}
 }
+
+@inproceedings{DBLP:conf/wosp/HegemanJIT21,
+  abbr        = {HotCloudPerf},
+  bibtex_show = {true},
+  selected    = {false},
+  preview     = {grademl.png},
+  pdf         = {2023-hotcloudperf-grademl},
+  abstract    = {Today, machine learning (ML) workloads are nearly ubiquitous. Over the past decade, much effort has been put into making ML model-training fast and efficient, e.g., by proposing new ML frameworks (such as TensorFlow, PyTorch), leveraging hardware support (TPUs, GPUs, FPGAs), and implementing new execution models (pipelines, distributed training). Matching this trend, considerable effort has also been put into performance analysis tools focusing on ML model-training. However, as we identify in this work, ML model training rarely happens in isolation and is instead one step in a larger ML workflow. Therefore, it is surprising that there exists no performance analysis tool that covers the entire life-cycle of ML workflows. Addressing this large conceptual gap, we envision in this work a holistic performance analysis tool for ML workflows. We analyze the state-of-practice and the state-of-the-art, presenting quantitative evidence about the performance of existing performance tools. We formulate our vision for holistic performance analysis of ML workflows along four design pillars: a unified execution model, lightweight collection of performance data, efficient data aggregation and presentation, and close integration in ML systems. Finally, we propose first steps towards implementing our vision as GradeML, a holistic performance analysis tool for ML workflows. Our preliminary work and experiments are open source at https://github.com/atlarge-research/grademl.},
+  author      = {Tim Hegeman and
+                 Matthijs Jansen and
+                 Alexandru Iosup and
+                 Animesh Trivedi},
+  editor      = {Johann Bourcier and
+                 Zhen Ming (Jack) Jiang and
+                 Cor{-}Paul Bezemer and
+                 Vittorio Cortellessa and
+                 Daniele Di Pompeo and
+                 Ana Lucia Varbanescu},
+  title       = {GradeML: Towards Holistic Performance Analysis for Machine Learning
+                 Workflows},
+  booktitle   = {{ICPE} '21: {ACM/SPEC} International Conference on Performance Engineering,
+                 Virtual Event, France, April 19-21, 2021, Companion Volume},
+  pages       = {57--63},
+  publisher   = {{ACM}},
+  year        = {2021},
+  url         = {https://doi.org/10.1145/3447545.3451185},
+  doi         = {10.1145/3447545.3451185},
+  timestamp   = {Sun, 02 Oct 2022 16:17:46 +0200},
+  biburl      = {https://dblp.org/rec/conf/wosp/HegemanJIT21.bib},
+  bibsource   = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/corr/abs-2207-04159,
+  author     = {Matthijs Jansen and
+                Auday Al{-}Dulaimy and
+                Alessandro V. Papadopoulos and
+                Animesh Trivedi and
+                Alexandru Iosup},
+  title      = {The {SPEC-RG} Reference Architecture for the Edge Continuum},
+  journal    = {CoRR},
+  volume     = {abs/2207.04159},
+  year       = {2022},
+  url        = {https://doi.org/10.48550/arXiv.2207.04159},
+  doi        = {10.48550/arXiv.2207.04159},
+  eprinttype = {arXiv},
+  eprint     = {2207.04159},
+  timestamp  = {Wed, 13 Jul 2022 15:22:19 +0200},
+  biburl     = {https://dblp.org/rec/journals/corr/abs-2207-04159.bib},
+  bibsource  = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/wosp/JansenDTI23,
+  abbr        = {HotCloudPerf},
+  bibtex_show = {true},
+  selected    = {false},
+  preview     = {metaverse-wifi.png},
+  pdf         = {2023-hotcloudperf-metaverse},
+  abstract    = {Extending human societies into virtual space through the construction of a metaverse has been a long-term challenge in both industry and academia. Achieving this challenge is now closer than ever due to advances in computer systems, facilitating large-scale online platforms such as Minecraft and Roblox that fulfill an increasing number of societal needs, and extended reality (XR) hardware, which provides users with state-of-the-art immersive experiences. For a metaverse to succeed, we argue that all involved systems must provide consistently good performance. However, there is a lack of knowledge on the performance characteristics of extended reality devices. In this paper, we address this gap and focus on extended- and virtual-reality hardware. We synthesize a user-centered system model that models common deployments of XR hardware and their trade-offs. Based on this model, we design and conduct real-world experiments with Meta's flagship virtual reality device, the Quest Pro. We highlight two surprising results from our findings which show that (i) under our workload, the battery drains 15% faster when using wireless offloading compared to local execution, and (ii) the outdated 2.4 GHz WiFi4 gives surprisingly good performance, with 99% of samples achieving a frame rate of at least 65 Hz, compared to the 72 Hz performance target. Our experimental setup and data are available at https://github.com/atlarge-research/measuring-the-metaverse.},
+  author      = {Matthijs Jansen and
+                 Jesse Donkervliet and
+                 Animesh Trivedi and
+                 Alexandru Iosup},
+  editor      = {Marco Vieira and
+                 Valeria Cardellini and
+                 Antinisca Di Marco and
+                 Petr Tuma},
+  title       = {Can My WiFi Handle the Metaverse? {A} Performance Evaluation Of Meta's
+                 Flagship Virtual Reality Hardware},
+  booktitle   = {Companion of the 2023 {ACM/SPEC} International Conference on Performance
+                 Engineering, {ICPE} 2023, Coimbra, Portugal, April 15-19, 2023},
+  pages       = {297--303},
+  publisher   = {{ACM}},
+  year        = {2023},
+  url         = {https://doi.org/10.1145/3578245.3585022},
+  doi         = {10.1145/3578245.3585022},
+  timestamp   = {Sat, 29 Apr 2023 19:25:35 +0200},
+  biburl      = {https://dblp.org/rec/conf/wosp/JansenDTI23.bib},
+  bibsource   = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/wosp/JansenWTI23,
+  author    = {Matthijs Jansen and
+               Linus Wagner and
+               Animesh Trivedi and
+               Alexandru Iosup},
+  editor    = {Marco Vieira and
+               Valeria Cardellini and
+               Antinisca Di Marco and
+               Petr Tuma},
+  title     = {Continuum: Automate Infrastructure Deployment and Benchmarking in
+               the Compute Continuum},
+  booktitle = {Companion of the 2023 {ACM/SPEC} International Conference on Performance
+               Engineering, {ICPE} 2023, Coimbra, Portugal, April 15-19, 2023},
+  pages     = {181--188},
+  publisher = {{ACM}},
+  year      = {2023},
+  url       = {https://doi.org/10.1145/3578245.3584936},
+  doi       = {10.1145/3578245.3584936},
+  timestamp = {Sat, 29 Apr 2023 19:25:34 +0200},
+  biburl    = {https://dblp.org/rec/conf/wosp/JansenWTI23.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/ccgrid/JansenAPTI23,
+  author    = {Matthijs Jansen and
+               Auday Al{-}Dulaimy and
+               Alessandro V. Papadopoulos and
+               Animesh Trivedi and
+               Alexandru Iosup},
+  editor    = {Yogesh Simmhan and
+               Ilkay Altintas and
+               Ana Lucia Varbanescu and
+               Pavan Balaji and
+               Abhinandan S. Prasad and
+               Lorenzo Carnevale},
+  title     = {The {SPEC-RG} Reference Architecture for The Compute Continuum},
+  booktitle = {23rd {IEEE/ACM} International Symposium on Cluster, Cloud and Internet
+               Computing, CCGrid 2023, Bangalore, India, May 1-4, 2023},
+  pages     = {469--484},
+  publisher = {{IEEE}},
+  year      = {2023},
+  url       = {https://doi.org/10.1109/CCGrid57682.2023.00051},
+  doi       = {10.1109/CCGrid57682.2023.00051},
+  timestamp = {Fri, 21 Jul 2023 22:25:52 +0200},
+  biburl    = {https://dblp.org/rec/conf/ccgrid/JansenAPTI23.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+

@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: PhD Student in Cloud and Edge Computing • <a href="https://atlarge-research.com">Massivizing Computer Systems</a> • <a href="https://vu.nl">Vrije Universiteit Amsterdam</a>
 
