@@ -6,7 +6,7 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: msj-website.JPG
+  image: msj-website.webp
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>NU building 11A13</p>
