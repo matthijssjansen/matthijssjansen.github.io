@@ -27,9 +27,10 @@ I am or supervising and have supervised the following students at the Vrije Univ
 
 | Year      | Student Name              | Project Title                                                                                                                             | Project Type                      |
 | ---       | ---                       | ---                                                                                                                                       | ---                               |
-| 2023      | Edgardo Reinoso Campos    | [*Ongoing*] Serverless Computing at the Edge in Precise Agriculture                                                                       | MSc Thesis                        |
-| 2023      | Antonios Sklavos          | [*Ongoing*] Benchmarking Container Platforms in Kubernetes                                                                                | MSc Thesis                        |
+| 2023      | Debarghya Saha            | [*Ongoing*] A Survey of Serverless Workflows                                                                                              | MSc Literature Survey             |
 | 2023      | Tim van Kemenade          | [*Ongoing*] Energy Usage of Kubernetes Schedulers                                                                                         | MSc Thesis                        |
+| 2023      | Edgardo Reinoso Campos    | [*Ongoing*] Serverless Computing at the Edge in Precise Agriculture                                                                       | MSc Thesis                        |
+| 2023      | Antonios Sklavos          | [Exploring the Performance of Kubernetes-Deployed Containers](/assets/pdf/education/2023-asklavos-msc_thesis.pdf)                         | MSc Thesis                        |
 | 2023      | Edgardo Reinoso Campos    | [Serverless Computing at the Edge in Precise Agriculture](/assets/pdf/education/2023-ecampos-litsurvey.pdf)                               | MSc Literature Survey             |
 | 2023      | Antonios Sklavos          | [Exploring the Performance-Isolation Trade-off for Isolation Mechanisms](/assets/pdf/education/2023-asklavos-litsurvey.pdf)               | MSc Literature Survey             |
 | 2023      | Tim van Kemenade          | [A Survey of Scheduling Algorithms for the Edge](/assets/pdf/education/2023-tkemenade-litsurvey.pdf)                                      | MSc Literature Survey             |
