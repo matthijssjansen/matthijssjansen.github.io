@@ -4,7 +4,8 @@ permalink: /teaching/
 title: teaching
 description:
 nav: true
-nav_order: 6
+nav_order: 3
+pretty_table: true
 ---
 
 I have been a teaching assistant at the University of Amsterdam (**UvA**) and Vrije Universiteit Amsterdam (**VU**) since 2018, and have been actively involved in organizing and running courses at the Vrije Universiteit Amsterdam since the start of my PhD in 2020.
@@ -12,8 +13,9 @@ I have been involved in the following courses:
 
 | Year(s)       | Course                                    | University    | Academic Level    |
 | ---           | ---                                       | ---           | ---               |
-| 2023          | Advanced Network Programming              | VU            | BSc               |
-| 2021 - 2023   | Distributed Systems                       | VU            | MSc               |
+| 2023 - 2024   | Advanced Network Programming              | VU            | BSc               |
+| 2023 - 2024   | Computer Networks                         | VU            | BSc               |
+| 2021 - 2024   | Distributed Systems                       | VU            | MSc               |
 | 2021 - 2023   | Storage Systems                           | VU            | MSc               |
 | 2020 - 2023   | Advanced Topics in Distributed Systems    | VU            | MSc               |
 | 2019 - 2020   | Compiler Construction                     | UvA           | BSc               |
@@ -27,6 +29,7 @@ I am supervising and have supervised the following students at the Vrije Univers
 
 | Year      | Student Name              | Project Title                                                                                                                             | Project Type                      |
 | ---       | ---                       | ---                                                                                                                                       | ---                               |
+| 2024      | Jacek Kuśnierz              | [Enhancing Graph Processing Efficiency in Kubernetes: Towards Application-Aware Scheduling](/assets/pdf/education/2024-jkusnierz-msc_thesis.pdf)                                     | MSc Thesis                        |
 | 2024      | Davit Darbinyan           | [Kubeless: A Novel Architecture for Kubernetes’ Control Plane](/assets/pdf/education/2024-ddarbinyan-bsc_thesis.pdf)                      | BSc Thesis                        |
 | 2024      | David Freina              | [End-to-End Power Model for the Compute Continuum](/assets/pdf/education/2024-dfreina-msc_thesis.pdf)                                     | MSc Thesis                        |
 | 2024      | Debarghya Saha            | [Controless: A serverless control plane for Kubernetes](/assets/pdf/education/2024-dsaha-msc_thesis.pdf)                                  | MSc Thesis                        |
