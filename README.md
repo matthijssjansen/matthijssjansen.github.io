@@ -1,13 +1,23 @@
 # Matthijs Jansen personal website
-This website is hosted at [matthijssjansen.github.io](matthijssjansen.github.io) which is forwarded to [msjansen.com](msjansen.com). For more information on how to use this repository, see [https://github.com/alshedivat/al-folio](https://github.com/alshedivat/al-folio). This repo uses release v0.12.0. 
+
+This website is hosted at [matthijssjansen.github.io](matthijssjansen.github.io) which is forwarded to [msjansen.com](msjansen.com). For more information on how to use this repository, see [https://github.com/alshedivat/al-folio](https://github.com/alshedivat/al-folio). This repo uses release v0.12.0.
 
 How to test the repo locally:
+
 ```bash
 docker compose pull
 docker compose up
 ```
 
+To run before pushing:
+
+```bash
+npm install --save-dev --save-exact prettier @shopify/prettier-plugin-liquid
+npx prettier . --write
+```
+
 How to update the repo to a newer version of the upstream al-folio repository:
+
 ```bash
 git remote add upstream https://github.com/alshedivat/al-folio.git
 git fetch upstream
