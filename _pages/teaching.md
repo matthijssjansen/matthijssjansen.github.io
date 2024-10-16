@@ -29,8 +29,8 @@ I am supervising and have supervised the following students at the Vrije Univers
 
 | Year      | Student Name              | Project Title                                                                                                                             | Project Type                      |
 | ---       | ---                       | ---                                                                                                                                       | ---                               |
-| 2024      | Jacek Kuśnierz              | [Enhancing Graph Processing Efficiency in Kubernetes: Towards Application-Aware Scheduling](/assets/pdf/education/2024-jkusnierz-msc_thesis.pdf)                                     | MSc Thesis                        |
 | 2024      | Davit Darbinyan           | [Kubeless: A Novel Architecture for Kubernetes’ Control Plane](/assets/pdf/education/2024-ddarbinyan-bsc_thesis.pdf)                      | BSc Thesis                        |
+| 2024      | Jacek Kuśnierz              | [Enhancing Graph Processing Efficiency in Kubernetes: Towards Application-Aware Scheduling](/assets/pdf/education/2024-jkusnierz-msc_thesis.pdf)                                     | MSc Thesis                        |
 | 2024      | David Freina              | [End-to-End Power Model for the Compute Continuum](/assets/pdf/education/2024-dfreina-msc_thesis.pdf)                                     | MSc Thesis                        |
 | 2024      | Debarghya Saha            | [Controless: A serverless control plane for Kubernetes](/assets/pdf/education/2024-dsaha-msc_thesis.pdf)                                  | MSc Thesis                        |
 | 2024      | Maciej Kozub              | [Memory-Efficient WebAssembly Containers](/assets/pdf/education/2024-mkozub-msc_thesis.pdf)                                               | MSc Thesis                        |
