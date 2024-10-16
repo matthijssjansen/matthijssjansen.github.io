@@ -1,5 +1,6 @@
 # Matthijs Jansen personal website
-This website is hosted at [matthijssjansen.github.io](matthijssjansen.github.io) which is forwarded to [msjansen.com](msjansen.com). For more information on how to use this repository, see [https://github.com/alshedivat/al-folio](https://github.com/alshedivat/al-folio). This repo uses release v0.12.0. 
+
+This website is hosted at [matthijssjansen.github.io](matthijssjansen.github.io) which is forwarded to [msjansen.com](msjansen.com). For more information on how to use this repository, see [https://github.com/alshedivat/al-folio](https://github.com/alshedivat/al-folio). This repo uses release v0.12.0.
 
 <div align="center">
 
