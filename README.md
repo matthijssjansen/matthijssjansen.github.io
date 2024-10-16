@@ -1,4 +1,5 @@
-# al-folio
+# Matthijs Jansen personal website
+This website is hosted at [matthijssjansen.github.io](matthijssjansen.github.io) which is forwarded to [msjansen.com](msjansen.com). For more information on how to use this repository, see [https://github.com/alshedivat/al-folio](https://github.com/alshedivat/al-folio). This repo uses release v0.12.0. 
 
 <div align="center">
 
@@ -473,8 +474,12 @@ Our most active contributors are welcome to join the maintainers team. If you ar
   </picture>
 </a>
 
-## License
+# Choose one version from fetch upstream
+# -x ours will prefer their changes over our changes
+git rebase -X ours v0.12.0
 
 The theme is available as open source under the terms of the [MIT License](https://github.com/alshedivat/al-folio/blob/main/LICENSE).
 
-Originally, **al-folio** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](https://liabogoev.com) and under the MIT license). Since then, it got a full re-write of the styles and many additional cool features.
+# If this succeeded, force push
+git push -f
+```
