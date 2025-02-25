@@ -8,16 +8,19 @@ nav_order: 3
 pretty_table: true
 ---
 
-I have been a teaching assistant at the University of Amsterdam (**UvA**) and Vrije Universiteit Amsterdam (**VU**) since 2018, and have been actively involved in organizing and running courses at the Vrije Universiteit Amsterdam since the start of my PhD in 2020.
+I have been a teaching assistant at the University of Amsterdam (**UvA**) and Vrije Universiteit Amsterdam (**VU**) since 2018, and have been actively involved in organizing and running courses at the Vrije Universiteit Amsterdam and the Dutch Advanced School for Computing and Imaging (**ASCI**) since the start of my PhD in 2020.
 I have been involved in the following courses:
 
 | Year(s)     | Course                                 | University | Academic Level |
 | ----------- | -------------------------------------- | ---------- | -------------- |
+| 2024        | Computer Organization                  | VU         | BSc            |
 | 2023 - 2024 | Advanced Network Programming           | VU         | BSc            |
 | 2023 - 2024 | Computer Networks                      | VU         | BSc            |
 | 2021 - 2024 | Distributed Systems                    | VU         | MSc            |
 | 2021 - 2023 | Storage Systems                        | VU         | MSc            |
 | 2020 - 2023 | Advanced Topics in Distributed Systems | VU         | MSc            |
+| 2023        | High-performance Computing             | ASCI       | Graduate       |
+| 2022        | Distributed Systems                    | ASCI       | Graduate       |
 | 2019 - 2020 | Compiler Construction                  | UvA        | BSc            |
 | 2019        | Image Processing and Computer Vision   | UvA        | BSc            |
 | 2019        | Modern Databases                       | UvA        | BSc            |
@@ -25,10 +28,11 @@ I have been involved in the following courses:
 | 2018        | Information Retrieval                  | VU         | BSc            |
 
 <br>
-I am supervising and have supervised the following students at the Vrije Universiteit Amsterdam in the Computer Science BSc and MSc programs:
+I have supervised the following student projects at the Vrije Universiteit Amsterdam in the Computer Science BSc and MSc programs:
 
 | Year | Student Name           | Project Title                                                                                                                                    | Project Type                     |
 | ---- | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------- |
+| 2025 | Alfred Daimari         | [Energy Consumption of Heuristic Kubernetes Schedulers](/assets/pdf/education/2025-adaimari-isp.pdf)                                             | MSc Individual Systems Practical |
 | 2024 | Davit Darbinyan        | [Kubeless: A Novel Architecture for Kubernetes’ Control Plane](/assets/pdf/education/2024-ddarbinyan-bsc_thesis.pdf)                             | BSc Thesis                       |
 | 2024 | Jacek Kuśnierz         | [Enhancing Graph Processing Efficiency in Kubernetes: Towards Application-Aware Scheduling](/assets/pdf/education/2024-jkusnierz-msc_thesis.pdf) | MSc Thesis                       |
 | 2024 | David Freina           | [End-to-End Power Model for the Compute Continuum](/assets/pdf/education/2024-dfreina-msc_thesis.pdf)                                            | MSc Thesis                       |

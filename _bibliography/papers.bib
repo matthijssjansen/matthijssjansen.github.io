@@ -196,3 +196,34 @@
   keywords    = {Technological innovation;Costs;Software architecture;Education;Memory;Big Data;Hard disks;Hardware;Computer science education;Video recording;Storage systems;Education;Experience report},
   doi         = {10.1109/CCGrid59990.2024.00074}
 }
+
+@inproceedings{columbo2025jansen,
+  bibtex_show = {true},
+  selected    = {false},
+  preview     = {columbo2025jansen.webp},
+  code        = {https://github.com/atlarge-research/continuum/tree/columbo},
+  abstract    = {Resource managers such as Kubernetes are rapidly evolving to support low-latency and scalable computing paradigms such as serverless and granular computing. As a result, Kubernetes supports dozens of workload deployment models and exposes roughly 1,600 configuration parameters. Previous work has shown that parameter tuning can significantly improve Kubernetes' performance, but identifying which parameters impact performance and should be tuned remains challenging. To help users optimize their Kubernetes deployments, we present Columbo, an offline reasoning framework to detect and resolve performance bottlenecks using configuration parameters. We study Kubernetes and define its workload deployment pipeline of 6 stages and 26 steps. To detect bottlenecks, Columbo uses an analytical model to predict the best-case deployment time of a workload per pipeline stage and compares it to empirical data from a novel benchmark suite. Columbo then uses a rule-based methodology to recommend parameter updates based on the detected bottleneck, deployed workload, and mapping of configurations to pipeline stages. We demonstrate that Columbo reduces workload deployment time across its benchmark suite by 28% on average and 79% at most. We report a total execution time decrease of 17% for data processing with Spark and up to 20% for serverless workflows with OpenWhisk. Columbo is open-source and available at https://github.com/atlarge-research/continuum/tree/columbo.},
+  author      = {Matthijs Jansen and
+                 Sacheendra Talluri and
+                 Krijn Doekemeijer and
+                 Nick Tehrany and
+                 Alexandru Iosup and
+                 Animesh Trivedi},
+  title       = {Columbo: A Reasoning Framework for Kubernetes' Configuration Space},
+  booktitle   = {Proceedings of the 16th {ACM/SPEC} International Conference on Performance
+                 Engineering, {ICPE} 2025, Toronto, Canada, May 5-9, 2025},
+  publisher   = {{ACM}},
+  year        = {2025}
+}
+
+@inproceedings{trigger2025satish,
+  bibtex_show = {true},
+  selected    = {false},
+  preview     = {trigger2025satish.webp},
+  code        = {https://anonymous.4open.science/r/trigger-perf-EA0D/README.md},
+  abstract    = {Serverless applications are composed of functions triggered by events. Data stores are a common source of event triggers in the cloud, even beyond serverless, such as in Kubernetes. We find trigger latency, the time from event generation to function invocation, to take up to 62% of execution time for common serverless applications. Even though event triggers play a crucial role in serverless performance, the mechanisms driving these triggers are ill-understood. In this paper, we analyze data store trigger mechanisms, define the features that make up these mechanisms, and characterize their performance with TriggerPerf, a benchmarking tool for data store triggers. We implement TriggerPerf on three AWS data stores with built-in trigger support: S3, DynamoDB, and AuroraDB. With TriggerPerf, we demonstrate significant latency, scalability, and elasticity bottlenecks across these data stores. We observe that the trigger latency of AWS data stores is up to 100x higher compared to a reference etcd data store. Moreover, the median tail latency of S3 and AuroraDB is 10x higher when under high load, unlike DynamoDB. The observed variability in performance patterns significantly impacts the reliability of serverless and distributed systems that depend on them, highlighting the critical need for further research into the underlying mechanisms. The tool is open-sourced and is available for use at https://anonymous.4open.science/r/trigger-perf-EA0D/README.md.},
+  author      = {Satish, Ritul and Talluri, Sacheendra and Sivakumar, Sudarsan and Jansen, Matthijs and Iosup, Alexandru},
+  booktitle   = {2025 IEEE 25th International Symposium on Cluster, Cloud and Internet Computing (CCGrid)},
+  title       = {Performance Characterization of Data Store Event Trigger Mechanisms for Serverless Computing},
+  year        = {2025}
+}
