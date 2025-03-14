@@ -201,6 +201,7 @@
   bibtex_show = {true},
   selected    = {false},
   preview     = {columbo2025jansen.webp},
+  pdf         = {columbo2025jansen.pdf},
   code        = {https://github.com/atlarge-research/continuum/tree/columbo},
   abstract    = {Resource managers such as Kubernetes are rapidly evolving to support low-latency and scalable computing paradigms such as serverless and granular computing. As a result, Kubernetes supports dozens of workload deployment models and exposes roughly 1,600 configuration parameters. Previous work has shown that parameter tuning can significantly improve Kubernetes' performance, but identifying which parameters impact performance and should be tuned remains challenging. To help users optimize their Kubernetes deployments, we present Columbo, an offline reasoning framework to detect and resolve performance bottlenecks using configuration parameters. We study Kubernetes and define its workload deployment pipeline of 6 stages and 26 steps. To detect bottlenecks, Columbo uses an analytical model to predict the best-case deployment time of a workload per pipeline stage and compares it to empirical data from a novel benchmark suite. Columbo then uses a rule-based methodology to recommend parameter updates based on the detected bottleneck, deployed workload, and mapping of configurations to pipeline stages. We demonstrate that Columbo reduces workload deployment time across its benchmark suite by 28% on average and 79% at most. We report a total execution time decrease of 17% for data processing with Spark and up to 20% for serverless workflows with OpenWhisk. Columbo is open-source and available at https://github.com/atlarge-research/continuum/tree/columbo.},
   author      = {Matthijs Jansen and
@@ -220,10 +221,30 @@
   bibtex_show = {true},
   selected    = {false},
   preview     = {trigger2025satish.webp},
-  code        = {https://anonymous.4open.science/r/trigger-perf-EA0D/README.md},
-  abstract    = {Serverless applications are composed of functions triggered by events. Data stores are a common source of event triggers in the cloud, even beyond serverless, such as in Kubernetes. We find trigger latency, the time from event generation to function invocation, to take up to 62% of execution time for common serverless applications. Even though event triggers play a crucial role in serverless performance, the mechanisms driving these triggers are ill-understood. In this paper, we analyze data store trigger mechanisms, define the features that make up these mechanisms, and characterize their performance with TriggerPerf, a benchmarking tool for data store triggers. We implement TriggerPerf on three AWS data stores with built-in trigger support: S3, DynamoDB, and AuroraDB. With TriggerPerf, we demonstrate significant latency, scalability, and elasticity bottlenecks across these data stores. We observe that the trigger latency of AWS data stores is up to 100x higher compared to a reference etcd data store. Moreover, the median tail latency of S3 and AuroraDB is 10x higher when under high load, unlike DynamoDB. The observed variability in performance patterns significantly impacts the reliability of serverless and distributed systems that depend on them, highlighting the critical need for further research into the underlying mechanisms. The tool is open-sourced and is available for use at https://anonymous.4open.science/r/trigger-perf-EA0D/README.md.},
+  pdf         = {trigger2025satish.pdf},
+  code        = {https://github.com/atlarge-research/trigger-perf},
+  abstract    = {Serverless applications are composed of functions triggered by events. Data stores are a common source of event triggers in the cloud, even beyond serverless, such as in Kubernetes. We find trigger latency, the time from event generation to function invocation, to take up to 62% of execution time for common serverless applications. Even though event triggers play a crucial role in serverless performance, the mechanisms driving these triggers are ill-understood. In this paper, we analyze data store trigger mechanisms, define the features that make up these mechanisms, and characterize their performance with TriggerPerf, a benchmarking tool for data store triggers. We implement TriggerPerf on three AWS data stores with built-in trigger support: S3, DynamoDB, and AuroraDB. With TriggerPerf, we demonstrate significant latency, scalability, and elasticity bottlenecks across these data stores. We observe that the trigger latency of AWS data stores is up to 100x higher compared to a reference etcd data store. Moreover, the median tail latency of S3 and AuroraDB is 10x higher when under high load, unlike DynamoDB. The observed variability in performance patterns significantly impacts the reliability of serverless and distributed systems that depend on them, highlighting the critical need for further research into the underlying mechanisms. The tool is open-sourced and is available for use at https://github.com/atlarge-research/trigger-perf.},
   author      = {Satish, Ritul and Talluri, Sacheendra and Sivakumar, Sudarsan and Jansen, Matthijs and Iosup, Alexandru},
-  booktitle   = {2025 IEEE 25th International Symposium on Cluster, Cloud and Internet Computing (CCGrid)},
+  booktitle   = {Proceedings of the 25th {IEEE} International Symposium on Cluster, Cloud, and Internet Computing (CCGRID 2025), Tromsø, Norway, May 19-22, 2025},
   title       = {Performance Characterization of Data Store Event Trigger Mechanisms for Serverless Computing},
+  year        = {2025},
+  publisher   = {{IEEE}}
+}
+
+@inproceedings{wasm2025jansen,
+  bibtex_show = {true},
+  selected    = {false},
+  preview     = {wasm2025jansen.webp},
+  pdf         = {wasm2025jansen.pdf},
+  code        = {https://github.com/atlarge-research/continuum/tree/wasm},
+  abstract    = {WebAssembly (Wasm) is a portable, high-performance binary instruction format originally designed for web browsers. It is rapidly gaining traction in server-side applications, including containerized environments orchestrated by Kubernetes. However, the performance impact of a widespread WebAssembly adoption in containerized environments remains unclear. Solutions relying on suboptimal WebAssembly runtimes may increase performance and memory overhead, especially in high-density deployment settings. In this paper, we explore the impact of WebAssembly runtimes on containerized application deployment in Kubernetes. Through an in-depth analysis of existing Wasm container runtimes, we identify inefficiencies in memory usage and startup times, limiting Wasm's viability in large-scale deployments. We propose a new integration of the lightweight WebAssembly Micro Runtime (WAMR) into the crun container runtime to resolve the identified inefficiencies of Wasm containers. Benchmark evaluations demonstrate that our WAMR integration reduces memory usage by 11% to 78% per container compared to existing Wasm runtimes while outperforming 4 of 6 benchmarked runtimes in container startup time. Furthermore, our integration reduces memory usage compared to Python containers by at least 16% and startup time by 3% to 18%. Our findings show that Wasm containers are a competitive alternative to traditional non-Wasm container solutions, especially in dense container deployments, and highlight the importance of runtime optimization in cloud-native environments. Our work is open-source and available at https://github.com/atlarge-research/continuum/tree/wasm.},
+  author      = {Matthijs Jansen and
+                 Maciej Kozub and
+                 Alexandru Iosup and
+                 Daniele Bonetta},
+  title       = {Memory Efficient WebAssembly Containers},
+  booktitle   = {{IEEE} International Parallel and Distributed Processing Symposium,
+                 {IPDPS} 2025 - Workshop, Milan, Italy, June 3-7, 2025},
+  publisher   = {{IEEE}},
   year        = {2025}
 }
