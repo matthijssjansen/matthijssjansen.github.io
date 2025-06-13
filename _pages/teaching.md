@@ -13,7 +13,7 @@ I have been involved in the following courses:
 
 | Year(s)     | Course                                 | University | Academic Level |
 | ----------- | -------------------------------------- | ---------- | -------------- |
-| 2024        | Computer Organization                  | VU         | BSc            |
+| 2024 - 2025 | Computer Organization                  | VU         | BSc            |
 | 2023 - 2024 | Advanced Network Programming           | VU         | BSc            |
 | 2023 - 2024 | Computer Networks                      | VU         | BSc            |
 | 2021 - 2024 | Distributed Systems                    | VU         | MSc            |
@@ -32,6 +32,9 @@ I have supervised the following student projects at the Vrije Universiteit Amste
 
 | Year | Student Name           | Project Title                                                                                                                                    | Project Type                     |
 | ---- | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------- |
+| 2025 | He Wen                 | [Testing Container Orchestration Systems: A Literature Review](/assets/pdf/education/2025-hwen-litsurvey.pdf)                                    | MSc Literature Survey            |
+| 2025 | Rohan Murali Nair      | [Configuration Management Systems](/assets/pdf/education/2025-rnair-litsurvey.pdf)                                                               | MSc Literature Survey            |
+| 2025 | Zhuoran Song           | [Energy Consumption and Optimization Strategies of Cloud-Based Big Data and Machine Learning Applications: Current Trends and Future Directions](/assets/pdf/education/2025-zsong-litsurvey.pdf)                            | MSc Literature Survey            |
 | 2025 | Alfred Daimari         | [Energy Consumption of Heuristic Kubernetes Schedulers](/assets/pdf/education/2025-adaimari-isp.pdf)                                             | MSc Individual Systems Practical |
 | 2024 | Davit Darbinyan        | [Kubeless: A Novel Architecture for Kubernetes’ Control Plane](/assets/pdf/education/2024-ddarbinyan-bsc_thesis.pdf)                             | BSc Thesis                       |
 | 2024 | Jacek Kuśnierz         | [Enhancing Graph Processing Efficiency in Kubernetes: Towards Application-Aware Scheduling](/assets/pdf/education/2024-jkusnierz-msc_thesis.pdf) | MSc Thesis                       |
